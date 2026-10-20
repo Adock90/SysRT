@@ -11,7 +11,9 @@ Go to releases on GitHub and click and download it (sha256sums provided)
 
 Run with your .js file as the first argument.
 
-<code>./SysRT hi.js</code>
+```
+./SysRT hi.js
+```
 
 
 # Build Instructions 
