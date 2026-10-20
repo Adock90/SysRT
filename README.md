@@ -3,11 +3,11 @@ A small linux JS Runtime for System Level programming
 
 # Just Running it
 
-<h1>Step 1:</h1>
+<h3>Step 1:</h3>
 
 Go to releases on github and click and download it (sha256sums provided)
 
-<h1>Step 2:</h1>
+<h3>Step 2:</h3>
 
 Run with your .js file as the first argument.
 
@@ -16,7 +16,7 @@ Run with your .js file as the first argument.
 
 # Build Instructions 
 
-<h1>Step 1:</h1>
+<h3>Step 1:</h3>
 
 Git clone this repository:
 
@@ -24,11 +24,13 @@ Git clone this repository:
 
 Or download as ZIP
 
-<h1>Step 2:</h1>
+<h3>Step 2:</h3>
 
 Run the build file (you might need to enable execute permissions).
 
-<code>./build.sh</code>
+"""
+./build.sh
+"""
 
 For changing permissions.
 
@@ -50,4 +52,4 @@ cd into the build directory.
 
 Run with your .js file as the first argument.
 
-<code>./GassinRT hi.js</code>
+<code>./SysRT hi.js</code>
