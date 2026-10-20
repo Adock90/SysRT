@@ -20,7 +20,7 @@ Run with your .js file as the first argument.
 
 Git clone this repository:
 
-<code>git clone https://github.com/Adock90/SysRT</code>
+```git clone https://github.com/Adock90/SysRT```
 
 Or download as ZIP
 
@@ -28,28 +28,26 @@ Or download as ZIP
 
 Run the build file (you might need to enable execute permissions).
 
-"""
-./build.sh
-"""
+```./build.sh```
 
 For changing permissions.
 
-<code>chmod +x ./build.sh</code>
+```chmod +x ./build.sh```
 
 Alternatively run:
 
-<code>g++ -o build/SysRT main.cpp -luv -lv8 -std=c++20 -I ./src</code>
+```g++ -o build/SysRT main.cpp -luv -lv8 -std=c++20 -I ./src```
 
 or
 
-<code>clang++ -o build/SysRT main.cpp -luv -lv8 -std=c++20 -I ./src</code>
+```clang++ -o build/SysRT main.cpp -luv -lv8 -std=c++20 -I ./src```
 
 <h1>Step 3</h1>
 
 cd into the build directory.
 
-<code>cd build/</code>
+```cd build/```
 
 Run with your .js file as the first argument.
 
-<code>./SysRT hi.js</code>
+```./SysRT hi.js```
